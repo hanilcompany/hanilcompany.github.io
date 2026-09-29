@@ -5,26 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>한일종합상사 | 공구·산업용품 전문 · 부산 경남 울산 납품</title>
-<meta name="description" content="1980년부터 이어온 공구·산업용품 전문 한일종합상사. 나라장터 등록업체. 부산·경남·울산 기업, 공장, 관공서 납품 문의.">
-<meta name="keywords" content="한일종합상사,공구,산업용품,부산공구,전동공구,안전용품,용접기자재,나라장터,부산납품,경남납품,울산납품">
+
+<meta name="description" content="1980년부터 이어온 공구·산업용품 전문 한일종합상사. 나라장터 등록업체. 수공구, 전동공구, 절삭공구, 측정공구, 용접기자재, 안전용품, 산업용품 취급. 부산·경남·울산 납품 문의.">
+
+<meta name="keywords" content="한일종합상사,공구,산업용품,부산공구,수공구,전동공구,절삭공구,초경공구,측정공구,용접기자재,안전용품,에어공구,유압공구,나라장터,부산납품,경남납품,울산납품">
 
 <style>
+
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
-*{
-box-sizing:border-box;
-}
+*{box-sizing:border-box}
 
-html{
-scroll-behavior:smooth;
-}
+html{scroll-behavior:smooth}
 
 body{
 margin:0;
 font-family:'Pretendard',sans-serif;
 color:#222;
 line-height:1.65;
-font-weight:400;
 letter-spacing:-0.02em;
 background:#fff;
 }
@@ -32,18 +30,18 @@ background:#fff;
 header{
 min-height:680px;
 background:
-linear-gradient(rgba(9,21,34,.64),rgba(9,21,34,.66)),
+linear-gradient(rgba(9,21,34,.64),rgba(9,21,34,.68)),
 url('store_front.jpg') center/cover no-repeat;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
-color:white;
+color:#fff;
 padding:50px 20px;
 }
 
 .hero{
-max-width:980px;
+max-width:1000px;
 margin:auto;
 }
 
@@ -51,7 +49,6 @@ margin:auto;
 font-size:16px;
 font-weight:600;
 letter-spacing:4px;
-opacity:.92;
 margin-bottom:12px;
 }
 
@@ -60,13 +57,11 @@ font-size:58px;
 font-weight:800;
 letter-spacing:-2.5px;
 margin:0 0 18px;
-line-height:1.15;
 }
 
 .hero h2{
 font-size:28px;
 font-weight:650;
-letter-spacing:-1px;
 margin:0 0 18px;
 }
 
@@ -78,7 +73,6 @@ margin:18px 0;
 
 .hero p{
 font-size:18px;
-font-weight:400;
 margin:8px 0;
 }
 
@@ -91,41 +85,30 @@ flex-wrap:wrap;
 }
 
 .buttons a{
-display:inline-block;
 min-width:160px;
 padding:15px 24px;
 text-decoration:none;
 border-radius:6px;
 font-size:16px;
 font-weight:650;
-transition:.2s ease;
 }
 
 .call{
-background:#ffffff;
-color:#16385d;
-}
-
-.call:hover{
-transform:translateY(-2px);
+background:#fff;
+color:#173b63;
 }
 
 .more{
-border:1.5px solid rgba(255,255,255,.85);
-color:white;
-background:rgba(255,255,255,.04);
-}
-
-.more:hover{
-background:rgba(255,255,255,.12);
+border:1.5px solid #fff;
+color:#fff;
 }
 
 section{
-padding:78px 20px;
+padding:80px 20px;
 }
 
 .inner{
-max-width:1120px;
+max-width:1150px;
 margin:auto;
 }
 
@@ -133,8 +116,15 @@ margin:auto;
 text-align:center;
 font-size:34px;
 font-weight:750;
-letter-spacing:-1.3px;
-margin:0 0 42px;
+margin:0 0 18px;
+}
+
+.section-description{
+text-align:center;
+max-width:800px;
+margin:0 auto 48px;
+font-size:17px;
+color:#555;
 }
 
 .history{
@@ -146,46 +136,72 @@ text-align:center;
 font-size:46px;
 font-weight:800;
 color:#173b63;
-letter-spacing:-1px;
-margin-bottom:8px;
 }
 
 .history-text{
-max-width:760px;
+max-width:780px;
 margin:auto;
 font-size:17px;
 color:#444;
 }
 
+/* 취급품목 */
+
+.products{
+background:#fff;
+}
+
 .cards{
 display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:22px;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
 }
 
 .card{
-padding:30px 28px;
-border:1px solid #e2e5e8;
+padding:29px;
+border:1px solid #e0e4e8;
 border-radius:10px;
-background:white;
-box-shadow:0 4px 16px rgba(0,0,0,.04);
+background:#fff;
+box-shadow:0 4px 18px rgba(0,0,0,.04);
+}
+
+.card-number{
+font-size:13px;
+font-weight:700;
+color:#7c8996;
+letter-spacing:1px;
 }
 
 .card h4{
 font-size:21px;
-font-weight:700;
-margin:0 0 13px;
+font-weight:720;
+margin:7px 0 10px;
 color:#173b63;
 }
 
 .card p{
 margin:0;
-font-size:16px;
+font-size:15.5px;
 color:#555;
 }
 
+.product-note{
+margin-top:35px;
+padding:25px;
+text-align:center;
+background:#f5f7f9;
+border-radius:10px;
+font-size:17px;
+}
+
+.product-note strong{
+color:#173b63;
+}
+
+/* 납품 */
+
 .delivery{
-background:#eef2f6;
+background:#edf2f6;
 text-align:center;
 }
 
@@ -199,34 +215,26 @@ font-size:24px;
 color:#173b63;
 }
 
-.delivery p{
-font-size:17px;
-color:#444;
-}
+/* 문의 */
 
 .contact{
 background:#173b63;
-color:white;
+color:#fff;
 text-align:center;
 }
 
 .contact .section-title{
-color:white;
+color:#fff;
 }
 
 .contact p{
 font-size:17px;
-margin:12px 0;
 }
 
 .contact a{
-color:white;
+color:#fff;
 font-weight:650;
 text-decoration:none;
-}
-
-.contact a:hover{
-text-decoration:underline;
 }
 
 footer{
@@ -251,7 +259,6 @@ letter-spacing:3px;
 
 h1{
 font-size:42px;
-letter-spacing:-1.8px;
 }
 
 .hero h2{
@@ -261,7 +268,6 @@ line-height:1.45;
 
 .point{
 font-size:18px;
-line-height:1.5;
 }
 
 .hero p{
@@ -294,10 +300,6 @@ font-size:38px;
 grid-template-columns:1fr;
 }
 
-.card{
-padding:25px;
-}
-
 }
 </style>
 </head>
@@ -320,7 +322,7 @@ padding:25px;
 <p>부산 · 경남 · 울산 기업 · 공장 · 관공서 납품문의</p>
 
 <p>
-전동공구 · 수공구 · 절삭 · 연마 · 용접기자재 · 안전용품 · 산업용품
+수공구 · 전동공구 · 절삭 · 측정 · 용접 · 안전 · 산업용품
 </p>
 
 <div class="buttons">
@@ -334,49 +336,139 @@ padding:25px;
 
 
 <section class="history">
+
 <div class="inner">
 
 <div class="since">Since 1980</div>
 
-<h3 class="section-title">위대한 당신의 정직한 친구!</h3>
+<h3 class="section-title">
+위대한 당신의 정직한 친구!
+</h3>
 
 <p class="history-text">
 한일종합상사는 1980년부터 공구와 산업용품을 취급해 온 전문업체입니다.
-오랜 현장 경험을 바탕으로 사업체, 공장, 관공서, 건설현장 및
-시설관리 현장에서 필요한 다양한 제품을 상담하고 공급하고 있습니다.
+오랜 현장 경험을 바탕으로 공장, 기업체, 관공서, 건설현장,
+시설관리 및 다양한 산업현장에서 필요한 제품을 상담하고 공급하고 있습니다.
 </p>
 
 </div>
 </section>
 
 
-<section id="products">
+<section id="products" class="products">
+
 <div class="inner">
 
-<h3 class="section-title">주요 취급품목</h3>
+<h3 class="section-title">취급품목</h3>
+
+<p class="section-description">
+현장에서 사용하는 기본 공구부터 전문 산업용품까지 폭넓게 취급합니다.
+찾으시는 제품이 홈페이지에 표시되지 않아도 전화로 문의해 주세요.
+</p>
+
 
 <div class="cards">
 
 <div class="card">
-<h4>전동 · 수작업 공구</h4>
+<div class="card-number">01</div>
+<h4>수작업공구</h4>
 <p>
-전동공구, 수공구, 목공공구, 측정공구 등 다양한 현장용 공구를 취급합니다.
+렌치, 스패너, 드라이버, 펜치, 니퍼, 망치, 소켓,
+육각렌치 등 현장에서 사용하는 다양한 수공구를 취급합니다.
 </p>
 </div>
 
 <div class="card">
-<h4>절삭 · 연마 · 용접</h4>
+<div class="card-number">02</div>
+<h4>절삭 · 초경공구</h4>
 <p>
-절삭공구, 연마제품, 용접기 및 용접기자재 등 작업현장에 필요한 제품을 공급합니다.
+드릴, 엔드밀, 탭, 다이스, 홀커터, 초경공구 및
+금속가공에 필요한 다양한 절삭공구를 취급합니다.
 </p>
 </div>
 
 <div class="card">
-<h4>안전 · 산업용품</h4>
+<div class="card-number">03</div>
+<h4>공작 · 금형공구</h4>
 <p>
-안전용품, 작업용품, 에어공구, 콤프레샤 및 다양한 산업용품을 취급합니다.
+금형 및 기계가공 현장에서 사용하는 공작공구,
+가공용품 및 각종 작업 보조제품을 공급합니다.
 </p>
 </div>
+
+<div class="card">
+<div class="card-number">04</div>
+<h4>측정 · 측량 · 계측</h4>
+<p>
+버니어캘리퍼스, 마이크로미터, 줄자, 수평기,
+측정기기 및 산업용 계측제품을 취급합니다.
+</p>
+</div>
+
+<div class="card">
+<div class="card-number">05</div>
+<h4>전동공구 · 충전공구</h4>
+<p>
+드릴, 그라인더, 해머드릴, 절단기, 임팩트,
+충전공구 및 각종 전동공구 관련 제품을 취급합니다.
+</p>
+</div>
+
+<div class="card">
+<div class="card-number">06</div>
+<h4>엔진 · 공작 · 하역장비</h4>
+<p>
+현장과 공장에서 사용하는 각종 장비와
+운반·인양·하역 작업 관련 제품을 취급합니다.
+</p>
+</div>
+
+<div class="card">
+<div class="card-number">07</div>
+<h4>에어 · 유압공구</h4>
+<p>
+에어공구, 에어호스, 콤프레샤 관련 제품,
+유압공구 및 산업현장용 관련 부품을 취급합니다.
+</p>
+</div>
+
+<div class="card">
+<div class="card-number">08</div>
+<h4>용접기 · 용접기자재</h4>
+<p>
+용접기, 용접봉, 토치, 용접부품 및
+용접작업에 필요한 다양한 기자재를 공급합니다.
+</p>
+</div>
+
+<div class="card">
+<div class="card-number">09</div>
+<h4>안전 · 작업용품</h4>
+<p>
+안전모, 보안경, 장갑, 안전조끼, 보호구 및
+작업자의 안전을 위한 다양한 제품을 취급합니다.
+</p>
+</div>
+
+<div class="card">
+<div class="card-number">10</div>
+<h4>산업용품 · 현장소모품</h4>
+<p>
+케이블타이, 접착제, 연마제품, 체결용품,
+현장소모품 및 각종 산업용품을 폭넓게 취급합니다.
+</p>
+</div>
+
+</div>
+
+
+<div class="product-note">
+
+<strong>찾으시는 제품이 목록에 없나요?</strong><br>
+홈페이지에 표시된 품목 외에도 다양한 공구·산업용품을 취급하고 있습니다.<br>
+제품명 또는 규격을 알려주시면 확인해 드리겠습니다.<br><br>
+
+☎ <strong>051-819-0980</strong>
 
 </div>
 
@@ -385,9 +477,12 @@ padding:25px;
 
 
 <section class="delivery">
+
 <div class="inner delivery-box">
 
-<h3 class="section-title">기업 · 공장 · 관공서 납품</h3>
+<h3 class="section-title">
+기업 · 공장 · 관공서 납품
+</h3>
 
 <p>
 <strong>나라장터 등록업체</strong>
@@ -395,7 +490,8 @@ padding:25px;
 
 <p>
 부산 · 경남 · 울산 지역의 기업체, 제조공장, 관공서,
-건설현장, 시설관리 및 구매담당자의 제품 구매와 납품 문의를 받고 있습니다.
+건설현장, 시설관리 및 구매담당자의 제품 구매와
+납품 문의를 받고 있습니다.
 </p>
 
 </div>
@@ -403,18 +499,21 @@ padding:25px;
 
 
 <section id="contact" class="contact">
+
 <div class="inner">
 
-<h3 class="section-title">구매 · 납품 문의</h3>
+<h3 class="section-title">
+구매 · 납품 문의
+</h3>
 
 <p>
 <strong>한일종합상사</strong>
 </p>
 
 <p>
-부산광역시 강서구 유통단지1로 41, 112동 121호
+부산 강서구 유통단지1로 41, 티플렉스 112동 121호
 </p>
-
+  
 <p>
 평일 07:30 ~ 19:00<br>
 토요일 07:30 ~ 16:00<br>
