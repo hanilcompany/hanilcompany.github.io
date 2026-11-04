@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,179 +19,37 @@
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-
-body{
-margin:0;
-font-family:'Pretendard',sans-serif;
-color:#222;
-line-height:1.65;
-background:#fff;
-}
-
-nav{
-position:sticky;
-top:0;
-z-index:1000;
-background:#fff;
-border-bottom:1px solid #e5e7ea;
-}
-
-.nav-inner{
-max-width:1180px;
-margin:auto;
-min-height:70px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:0 20px;
-}
-
-.brand{
-font-size:22px;
-font-weight:800;
-color:#173b63;
-}
-
-.menu{
-display:flex;
-gap:28px;
-}
-
-.menu a{
-text-decoration:none;
-color:#333;
-font-weight:600;
-}
-
-header{
-min-height:680px;
-background:
-linear-gradient(rgba(9,21,34,.64),rgba(9,21,34,.70)),
-url('store_front.jpg') center/cover no-repeat;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:#fff;
-padding:50px 20px;
-}
-
+body{margin:0;font-family:'Pretendard',sans-serif;color:#222;line-height:1.65;background:#fff}
+nav{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e5e7ea}
+.nav-inner{max-width:1180px;margin:auto;min-height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
+.brand{font-size:22px;font-weight:800;color:#173b63}
+.menu{display:flex;gap:28px}
+.menu a{text-decoration:none;color:#333;font-weight:600}
+header{min-height:680px;background:linear-gradient(rgba(9,21,34,.64),rgba(9,21,34,.70)),url('store_front.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:50px 20px}
 .hero{max-width:1000px}
-
-h1{
-font-size:58px;
-margin:12px 0 18px;
-}
-
+h1{font-size:58px;margin:12px 0 18px}
 .hero h2{font-size:28px}
-
-.point{
-font-size:21px;
-font-weight:650;
-}
-
+.point{font-size:21px;font-weight:650}
 section{padding:78px 20px}
-
-.inner{
-max-width:1150px;
-margin:auto;
-}
-
-.section-title{
-text-align:center;
-font-size:34px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:20px;
-}
-
-.card{
-padding:28px;
-border:1px solid #e1e5e9;
-border-radius:10px;
-background:#fff;
-height:100%;
-}
-
-.card-number{
-font-size:13px;
-color:#87919b;
-}
-
-.card h4{
-font-size:21px;
-color:#173b63;
-margin:7px 0 10px;
-}
-
-.card-link{
-text-decoration:none;
-color:inherit;
-display:block;
-}
-
-.card-link .card{
-transition:.2s;
-}
-
-.card-link .card:hover{
-transform:translateY(-3px);
-box-shadow:0 8px 24px rgba(0,0,0,.10);
-}
-
-.view-more{
-margin-top:15px !important;
-color:#173b63 !important;
-font-weight:700;
-}
-
-.history{
-background:#f5f7f9;
-text-align:center;
-}
-
-.delivery{
-background:#edf2f6;
-text-align:center;
-}
-
-.contact{
-background:#173b63;
-color:#fff;
-text-align:center;
-}
-
-.contact a{
-color:#fff;
-text-decoration:none;
-}
-
-footer{
-background:#101820;
-color:#aaa;
-text-align:center;
-padding:25px;
-}
-
+.inner{max-width:1150px;margin:auto}
+.section-title{text-align:center;font-size:34px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{padding:28px;border:1px solid #e1e5e9;border-radius:10px;background:#fff;height:100%}
+.card-number{font-size:13px;color:#87919b}
+.card h4{font-size:21px;color:#173b63;margin:7px 0 10px}
+.card-link{text-decoration:none;color:inherit;display:block}
+.card-link .card{transition:.2s}
+.card-link .card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.10)}
+.view-more{margin-top:15px !important;color:#173b63 !important;font-weight:700}
+.history{background:#f5f7f9;text-align:center}
+.delivery{background:#edf2f6;text-align:center}
+.contact{background:#173b63;color:#fff;text-align:center}
+.contact a{color:#fff;text-decoration:none}
+footer{background:#101820;color:#aaa;text-align:center;padding:25px}
 @media(max-width:800px){
-
-.cards{
-grid-template-columns:1fr;
-}
-
-h1{
-font-size:42px;
-}
-
-.menu{
-gap:12px;
-flex-wrap:wrap;
-justify-content:center;
-}
-
+.cards{grid-template-columns:1fr}
+h1{font-size:42px}
+.menu{gap:12px;flex-wrap:wrap;justify-content:center}
 }
 </style>
 </head>
@@ -201,55 +58,38 @@ justify-content:center;
 
 <nav>
 <div class="nav-inner">
-
 <div class="brand">한일종합상사</div>
-
 <div class="menu">
 <a href="#company">회사소개</a>
 <a href="#products">취급품목</a>
 <a href="#delivery">납품안내</a>
 <a href="#contact">오시는 길</a>
 </div>
-
 </div>
 </nav>
 
 <header>
 <div class="hero">
-
 <div>HANIL GENERAL COMPANY</div>
-
 <h1>한일종합상사</h1>
-
 <h2>1980년부터 이어온 공구·산업용품 전문업체</h2>
-
-<div class="point">
-50년 가까운 현장 경험 · 나라장터 등록업체
-</div>
-
+<div class="point">50년 가까운 현장 경험 · 나라장터 등록업체</div>
 <p>부산 · 경남 · 울산 기업 · 공장 · 관공서 납품문의</p>
-
 </div>
 </header>
 
 <section id="company" class="history">
 <div class="inner">
-
-<h3 class="section-title">
-위대한 당신의 정직한 친구!
-</h3>
-
+<h3 class="section-title">위대한 당신의 정직한 친구!</h3>
 <p>
 한일종합상사는 1980년부터 공구와 산업용품을 취급해 온 전문업체입니다.
 공장, 기업체, 관공서, 건설현장, 시설관리 현장에서 필요한 다양한 제품을 취급합니다.
 </p>
-
 </div>
 </section>
 
 <section id="products">
 <div class="inner">
-
 <h3 class="section-title">취급품목</h3>
 
 <div class="cards">
@@ -326,11 +166,14 @@ justify-content:center;
 </div>
 </a>
 
+<a href="safety-tools.html" class="card-link">
 <div class="card">
 <div class="card-number">09</div>
 <h4>안전 · 작업용품</h4>
 <p>안전모, 보안경, 작업장갑, 안전조끼 및 각종 산업안전용품을 취급합니다.</p>
+<p class="view-more">자세히 보기 →</p>
 </div>
+</a>
 
 <div class="card">
 <div class="card-number">10</div>
@@ -344,37 +187,17 @@ justify-content:center;
 
 <section id="delivery" class="delivery">
 <div class="inner">
-
-<h3 class="section-title">
-기업 · 공장 · 관공서 납품
-</h3>
-
-<p>
-부산 · 경남 · 울산 지역 납품문의
-</p>
-
+<h3 class="section-title">기업 · 공장 · 관공서 납품</h3>
+<p>부산 · 경남 · 울산 지역 납품문의</p>
 </div>
 </section>
 
 <section id="contact" class="contact">
 <div class="inner">
-
-<h3 class="section-title">
-오시는 길 · 구매문의
-</h3>
-
-<p>
-부산 강서구 유통단지1로 41, 티플렉스 112동 121호
-</p>
-
-<p>
-☎ <a href="tel:0518190980">051-819-0980</a>
-</p>
-
-<p>
-✉ <a href="mailto:hanil0980@hanmail.net">hanil0980@hanmail.net</a>
-</p>
-
+<h3 class="section-title">오시는 길 · 구매문의</h3>
+<p>부산 강서구 유통단지1로 41, 티플렉스 112동 121호</p>
+<p>☎ <a href="tel:0518190980">051-819-0980</a></p>
+<p>✉ <a href="mailto:hanil0980@hanmail.net">hanil0980@hanmail.net</a></p>
 </div>
 </section>
 
